@@ -70,13 +70,12 @@ choose O, the computer wil play first.
 If you enter a character that is neither X nor O, the program will loop back and ask 
 again for your selection.
 
-    TYPE X OR O TO CHOOSE GAME PIECE: C
-    INVALID CHARACTER | ENTER X OR O 
-    X
+      TYPE X OR O TO CHOOSE GAME PIECE: C
+      INVALID CHARACTER | ENTER X OR O
+      TYPE X OR O TO CHOOSE GAME PIECE: 
 
-Here, the user entered 'C' instead of X or O and the program asked again. Here, we do
-see an unfortunate inconsistency with the UI. Ideally, the ivalid character message should
-end with a colon and a space like the line before it instead of a new line.
+Here, the user entered 'C' instead of X or O and the program asked again. Readers of the
+README on the unedited code may notice a small fix in the UI here.
 
 ### PLAYER MOVE
 The Program will then prompt the user to enter the number of the cell the player would like
@@ -145,9 +144,7 @@ Going forward, I plan to improve upon the CPU's decision-making by utilizing the
 to make it unbeatable. Perhaps I could even add difficulties to the CPU, making an CPU that will only
 detect when a player is about to win and playing the piece there but otherwise using a pseudo-random 
 number generator to play moves, giving players at least a hope of winning. I would also like to go back 
-and make the code look prettier by adding comments, taking out registers I only used when debugging ($s4) 
-and turning some of the pseudo-subroutines into actual subroutines. Then, I would like to improve upon the 
-UI, making it more consistent and posssibly even adding an ASCII art title. 
+and restructure the code as well as turn some of the pseudo-subroutines into actual subroutines.
 
 Once I finish the MIPS version of this program, I plan to recreate this program in x86 assembly language
 as well as possibly ARM.
