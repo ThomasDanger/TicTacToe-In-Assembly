@@ -1,4 +1,4 @@
-# ✖ TicTacToe-In-Assembly ⭕
+# :x: TicTacToe-In-Assembly ⭕
 
 `Like Playing Tic-Tac-Toe On Paper If It Took An Hour To Figure Out How To Draw The Grid`
 
