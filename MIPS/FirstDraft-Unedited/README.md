@@ -93,9 +93,9 @@ The CPU will attempt to fill in the cells in order from 0 to 8. It will check
 to make sure the cell is empty before attempting to place its piece in the cell
 
 The only output will be the gameboard after the CPU's move
-    `[ O ] [   ] [   ]
+     [ O ] [   ] [   ]
      [   ] [   ] [   ]
-     [   ] [ X ] [   ]`
+     [   ] [ X ] [   ]
      
 ### WIN CONDITIONS
  To check for win conditions, it should be made known that X's are stored into the array
