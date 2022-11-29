@@ -1,13 +1,23 @@
-# :x: Tic-Tac-Toe In Assemby - First Draft (Unedited) :o:
+# :x: Tic-Tac-Toe In Assemby - First Draft (Edited) :o:
 
-`Written by Thomas Conner on 11/28/2022 in the passenger seat of a Nissan Rogue during
-a bumpy trip from San Antonio to Richardson, TX (4-5 hours) while listening to his sister's
-eighth-grade emo music playlist at max volume.`
+###  _________________      _________________         _________________      ___   ___
+### /______  _______//     /______  _______//        /______  _______//      \ \\ / //
+###       / //                   / //                      / //               \ \/ //
+###      / //  ())              / //                      / //                 \  //
+###     / //  __   ___         / // ____    ___          / // ____   ____      /  \>___
+###    / //  / /| / _\\ ____  / // /   \\  / _\\  ____  / // /   \\ / _ \\    / /\  _ \\
+###   / //  / // / //_ /__// / // / () || / //_  /__// / // / () /// ____\\  / /// / \ \\
+###  / //__/_//__\__//______/ //__\___/||_\__//_______/ //__\___//_\_____//_/ //( (   ) ))
+###  \_______________________________________________________________________//  \ \_/ //
+###                                                                               \___//
+
+`Written by Thomas Conner on 11/29/2022`
 
 ## Introduction
 
-This was the first draft I wrote of Tic-Tac-Toe in assembly. This was done as part
-of a project for my computer architecture class and written in MIPS assembly language.
+This is an edit of the first draft I wrote of Tic-Tac-Toe in assembly. This was done 
+as part of a project for my computer architecture class and written in MIPS assembly 
+language.
   
 The goal of the project was to make a working Tic-Tac-Toe game in which a player could
 play against a computer with no requirements on the CPU's moveset other than that it had 
@@ -19,12 +29,12 @@ updates with the end goal being the CPU uses the minmax algorithm  to always win
   
 In its current state, even with its flaws, this program outperforms my peers' programs
 with its rudimentary input validation, minimal errors (only type errors when a user enters 
-a string instead or int, etc.), crude but understandable AI, and ability to allow the player 
+a string instead or int, etc.), crude but understandable UI, and ability to allow the player 
 to choose between Xs and Os by reading in an X or O character from the user.
 
-Also, the code isn't pretty. Like it REALLY isn't pretty. There's like 2 comments in ~300 lines 
-of code, There's random labels everywhere and some of the practices with procedures are really 
-hacky. I only posted this to show the progression on this program.
+This edit was mostly made to improve upon the lack of comments in the unedited version.
+However, the code still needs to be restructured. In the comments in this file, are a few
+notes to self for how I will implement this restructuring.
   
 ## STEPS
   
