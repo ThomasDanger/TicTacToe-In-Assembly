@@ -1,4 +1,4 @@
-# :x: Tic-Tac-Toe In Assemby - First Draft :o:
+# :x: Tic-Tac-Toe In Assemby - First Draft (Unedited) :o:
 
 `Written by Thomas Conner on 11/28/2022 in the passenger seat of a Nissan Rogue during
 a bumpy trip from San Antonio to Richardson, TX (4-5 hours) while listening to his sister's
