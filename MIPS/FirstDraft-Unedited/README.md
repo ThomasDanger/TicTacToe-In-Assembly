@@ -1,17 +1,17 @@
 #First Draft
 
-  This was the first fraft I wrote of Tic-Tac-Toe in assembly. This was done as part
+    This was the first fraft I wrote of Tic-Tac-Toe in assembly. This was done as part
   of a project for my computer architecture class.
   
-  The goal of the project was to make a working Tic-Tac-Toe game in which a player could
+    The goal of the project was to make a working Tic-Tac-Toe game in which a player could
   play against a computer with no requirements on the CPU's moveset other than that it had 
   one.
   
-  In its current state, the CPU plays each cell on a row before proceeding to the next and
+    In its current state, the CPU plays each cell on a row before proceeding to the next and
   the gameboard is a one dimensional array. This will hopefully be improved upon in further
   updates with the end goal being the CPU uses the minmax algorithm  to always win or tie.
   
-  In its current state, even with its flaws, this program outperforms my peers' programs
+    In its current state, even with its flaws, this program outperforms my peers' programs
   with its rudimentary input validation, crude but understandable AI, and ability to allow
   the player to choose between Xs and Os by reading in an X or O character from the user.
   
