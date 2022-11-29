@@ -1,8 +1,12 @@
 # First Draft
 
 ## Introduction
-This was the first fraft I wrote of Tic-Tac-Toe in assembly. This was done as part
-of a project for my computer architecture class.
+`Written by Thomas Conner on 11/28/2022 in the passenger seat of a Nissan Rogue during
+a bumpy trip from San Antonio to Richardson, TX (4-5 hours) while listening to my sister's
+eight-grade emo music playlist at max volume.`
+
+This was the first draft I wrote of Tic-Tac-Toe in assembly. This was done as part
+of a project for my computer architecture class and written in MIPS assembly language.
   
 The goal of the project was to make a working Tic-Tac-Toe game in which a player could
 play against a computer with no requirements on the CPU's moveset other than that it had 
@@ -128,7 +132,8 @@ The only output will be the gameboard after the CPU's move
 Going forward, I plan to improve upon the CPU's decision-making by utilizing the minmax algorithm
 to make it unbeatable. Perhaps I could even add difficulties to the CPU, making an CPU that will only
 detect when a player is about to win and playing the piece there but otherwise using a pseudo-random 
-number generator to play moves, giving players at least a hope of winning.
+number generator to play moves, giving players at least a hope of winning. I would also like to recreate
+this program in x86 assembly language.
 
 Thank you for checking this little project out. I understand this isn't too hard to code (Especially 
 not hard to code poorly), but I had a lot of fun on this and just wanted to show my work.
