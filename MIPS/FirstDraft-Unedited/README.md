@@ -134,8 +134,13 @@ The only output will be the gameboard after the CPU's move
 Going forward, I plan to improve upon the CPU's decision-making by utilizing the minmax algorithm
 to make it unbeatable. Perhaps I could even add difficulties to the CPU, making an CPU that will only
 detect when a player is about to win and playing the piece there but otherwise using a pseudo-random 
-number generator to play moves, giving players at least a hope of winning. I would also like to recreate
-this program in x86 assembly language.
+number generator to play moves, giving players at least a hope of winning. I would also like to go back 
+and make the code look prettier by adding comments, taking out registers I only used when debugging ($s4) 
+and turning some of the pseudo-subroutines into actual subroutines. Then, I would like to improve upon the 
+UI, making it more consistent and posssibly even adding an ASCII art title. 
+
+Once I finish the MIPS version of this program, I plan to recreate this program in x86 assembly language
+as well as possibly ARM.
 
 Thank you for checking this little project out. I understand this isn't too hard to code (Especially 
 not hard to code poorly), but I had a lot of fun on this and just wanted to show my work.
