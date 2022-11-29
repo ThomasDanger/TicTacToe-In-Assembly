@@ -93,9 +93,10 @@ The CPU will attempt to fill in the cells in order from 0 to 8. It will check
 to make sure the cell is empty before attempting to place its piece in the cell
 
 The only output will be the gameboard after the CPU's move
-    ` [ O ] [   ] [   ]`
-    ` [   ] [   ] [   ]`
-    ` [   ] [ X ] [   ]`
+
+     [ O ] [   ] [   ]
+     [   ] [   ] [   ]
+     [   ] [ X ] [   ]
      
 ### WIN CONDITIONS
  To check for win conditions, it should be made known that X's are stored into the array
@@ -103,7 +104,7 @@ The only output will be the gameboard after the CPU's move
  for a win, the program adds every element an a line together and checks if the sum equals
  -3 or 3. If it equals -3, O wins. If it equals 3, X wins.
  
-    `[ X ] [ O ] [ O ]
+     [ X ] [ O ] [ O ]
      [ X ] [   ] [   ]
      [ X ] [   ] [   ]
     X WINS
