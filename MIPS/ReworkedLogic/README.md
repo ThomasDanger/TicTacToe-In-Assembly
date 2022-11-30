@@ -1,4 +1,4 @@
-# :x: Tic-Tac-Toe In Assemby - First Draft (Unedited) :o:
+# :x: Tic-Tac-Toe In Assemby - Reworked Logic :o:
 
 `One Step Forward, Two Steps Back`
 
