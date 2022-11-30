@@ -17,7 +17,7 @@
 
 This program allows you to play tic-tac-toe against a computer. This is a remake of
 my previous Tic-Tac-Toe program (in this directory labeled first draft) except 
-several features missing (oops) and with almost entirely reworked logic.
+with several features missing (oops) and with almost entirely reworked logic.
 
 Whereas the first draft program used an 8 element, one-dimensional array to hold the 
 game data, this reworked version uses only two integers to hold all of the game data.
