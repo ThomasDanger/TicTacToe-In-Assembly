@@ -2,16 +2,16 @@
 
 `Pretty Much It`
 
-      _________________      _________________         _________________      ___   ___
-     /______  _______//     /______  _______//        /______  _______//      \ \\ / //
-           / //                   / //                      / //               \ \/ //
-          / //  ())              / //                      / //                 \  //
-         / //  __   ___         / // ____    ___          / // ____   ____      /  \>___
-        / //  / /| / _\\ ____  / // /   \\  / _\\  ____  / // /   \\ / _ \\    / /\  _ \\
-       / //  / // / //_ /__// / // / () || / //_  /__// / // / () /// ____\\  / /// / \ \\
-      / //__/_//__\__//______/ //__\___/||_\__//_______/ //__\___//_\_____//_/ //( (   ) ))
-      \_______________________________________________________________________//  \ \_/ //
-                                                                                   \___//
+       _________________        _________________          _________________      ___   ___
+      /______  _______//       /______  _______//         /______  _______//      \ \\ / //
+            / //  _                  / //                       / //               \ \/ //
+           / //  ())                / //                       / //                 \  //____
+          / //  ___  ____          / // ____    ____          / // ____   ____      /  \/ _ \\
+         / //  / // / __\\  ____  / // /   \\  / __\\  ____  / // /   \\ / _ \\    / /\  //\ \\
+        / //  / // / //___ /__// / // / () || / //___ /__// / // / () /// ___//_  / //( ((  ) ))
+       / //__/_//__\____//______/ //__\___/||_\____//______/ //__\___//_\_____//_/ //  \ \\/ //
+       \__________________________________________________________________________//    \___//
+                                                                        
 
 ## Introduction
 
@@ -138,10 +138,9 @@ The only output will be the gameboard after the CPU's move
      [   ] [ X ] [   ]
      
 ### WIN CONDITIONS
- To check for win conditions, it should be made known that X's are stored into the array
- as 1's, O's are stored into the array as -1's, and empty spaces are stored as 0. to check
- for a win, the program adds every element an a line together and checks if the sum equals
- -3 or 3. If it equals -3, O wins. If it equals 3, X wins.
+ To check for win conditions, The program compares the current
+ game board with 8 different binary strings, one for each row,
+ column, and diagonal.
  
      [ X ] [ O ] [ O ]
      [ X ] [   ] [   ]
