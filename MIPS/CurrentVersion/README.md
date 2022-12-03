@@ -185,20 +185,21 @@ Cell:  8  7  6  5  4  3  2  1  0
 This could then be represented by the binary string      
       |01|01|10|10|10|01|01|10|10|
 By performing the aformentioned operations we see
-      010110101001011010
-&     010101010101010101
-      __________________
-<<    010100000001010000
-      __________________
-      101000000010100000
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-      010110101001011010
-      101010101010101010
-      __________________
-      000010101000001010
-&     101000000010100000
-      __________________
-TIE=  101010101010101010
+
+            010110101001011010
+      &     010101010101010101
+            __________________
+      <<    010100000001010000
+            __________________
+            101000000010100000
+      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+            010110101001011010
+            101010101010101010
+            __________________
+            000010101000001010
+      &     101000000010100000
+            __________________
+      TIE=  101010101010101010
 
 ## GOING FORWARD
 Going forward, I would like to minimize the file size as well as try to find more novel ways to
