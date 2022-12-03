@@ -181,25 +181,19 @@ The only output will be the gameboard after the CPU's move
     
 In the above example we see
 Cell:  8  7  6  5  4  3  2  1  0
+
       | O| O|X |X |X | O| O|X |X |
-This could then be represented by the binary string      
+This could then be represented by the binary string  
+
       |01|01|10|10|10|01|01|10|10|
 By performing the aformentioned operations we see
 
-            010110101001011010
-      &     010101010101010101
-            __________________
-      <<    010100000001010000
-            __________________
-            101000000010100000
-      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            010110101001011010
-            101010101010101010
-            __________________
-            000010101000001010
-      &     101000000010100000
-            __________________
-      TIE=  101010101010101010
+            010110101001011010      010110101001011010
+      &     010101010101010101      101010101010101010
+            __________________      __________________
+      <<    010100000001010000      000010101000001010
+            __________________      VVVVVVVVVVVVVVVVVV
+            101000000010100000   &  000010101000001010 = 101010101010101010 = TIE
 
 ## GOING FORWARD
 Going forward, I would like to minimize the file size as well as try to find more novel ways to
