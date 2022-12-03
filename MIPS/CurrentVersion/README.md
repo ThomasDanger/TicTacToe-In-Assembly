@@ -18,7 +18,7 @@
 This program allows you to play tic-tac-toe against a computer. This is my most recent
 tic-tac-toe in assembly program.
 
-##### BACKGROUND
+#### BACKGROUND
 This program started as a solution to my computer architecture project: make a Tic-Tac-Toe
 game in which a player can play against a computer. That was it. The CPU's decision-making
 could be as stupid as you'd like. You could have to manually enter the memory address
@@ -39,7 +39,7 @@ new method was smaller, more readable, and likely faster than my previous versio
 could rely on bitwise operations to check positions of pieces on the game board rether than 
 having to pull from an array and interpret the data.
 
-##### CURRENT BUILD
+#### CURRENT BUILD
 This build of Tic-Tac-Toe has managed to store the game board into a bitstring. This means all 
 of the pieces' positions were interpretted as a single 18-bit integer. MIPS uses 32 bits to 
 represent every integer, so this really was more of a resourceful solution rather than a
