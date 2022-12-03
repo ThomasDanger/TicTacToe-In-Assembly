@@ -166,15 +166,40 @@ The only output will be the gameboard after the CPU's move
     X WINS
  
 ### TIE
- To check for a tie, the program will read every element in the array to check if there are
- any 0s. If a zero is found, the check wil immediately cease. If the end of the array is reached,
- however, a tie will be declared.
+ To check for a tie, the program performs a bitwise "and" operation between the register holding
+ the bit string representing the gameboard and 87381 (010101010101010101). Performing this bitwise 
+ "and" instruction yields a bit string representing the position of every O in the string. Then, 
+ we shift this resultant string left once. Then, we perform a logical and between the gameboard 
+ and 174762 (101010101010101010). This yields the position of every X in the array. Finally, we 
+ use a bitwise "or" between the X position bit string and the O position bitstring (that is shifted
+ left) and compare it to 174762 (101010101010101010). This tells us that every cell has been filled
  
      [ X ] [ X ] [ O ]
      [ O ] [ X ] [ X ]
      [ X ] [ O ] [ O ]
     TIE
     
+In the above example we see
+Cell:  8  7  6  5  4  3  2  1  0
+      | O| O|X |X |X | O| O|X |X |
+This could then be represented by the binary string      
+      |01|01|10|10|10|01|01|10|10|
+By performing the aformentioned operations we see
+      010110101001011010
+&     010101010101010101
+      __________________
+<<    010100000001010000
+      __________________
+      101000000010100000
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+      010110101001011010
+      101010101010101010
+      __________________
+      000010101000001010
+&     101000000010100000
+      __________________
+TIE=  101010101010101010
+
 ## GOING FORWARD
 Going forward, I would like to minimize the file size as well as try to find more novel ways to
 optimize the CPU's decision-making (finding a faster way to find the nearest open corner, edge,
