@@ -186,7 +186,7 @@ By performing the aformentioned operations we see
             __________________      __________________
       <<    010100000001010000      000010101000001010
             __________________      VVVVVVVVVVVVVVVVVV
-            101000000010100000   &  000010101000001010 = 101010101010101010 = TIE
+            101000000010100000   |  000010101000001010 = 101010101010101010 = TIE
 
 ## GOING FORWARD
 Going forward, I would like to minimize the file size as well as try to find more novel ways to
