@@ -82,12 +82,9 @@ software/firmware engineering and development.
      [ 6 ] [ 7 ] [ 8 ]
      
 Where the grid containing the numbers represents a table and the numbers
-represent the position of a cell. This is also the index at which the element
-will exist in the array that holds the game data. Though, this (while convenient)
-is merely coincidental as, even when I had previously panned to implement a 2d array
-to hold the game data, I had still planned to use this system when prompting the user 
-to play. This game will also prompt the user to choose X's or O's. This is explained
-in the next step
+represent the position of a cell. The data for the player's move will be 
+stored at 2^(Position*2). This game will also prompt the user to choose 
+X's or O's. This is explained in the next step.
   
 ### CHOOSING GAMEPIECE (X'S OR O'S)
 The program will prompt you to enter an X or an O to choose whether you would
@@ -102,10 +99,6 @@ again for your selection.
     TYPE X OR O TO CHOOSE GAME PIECE: C
     INVALID CHARACTER | ENTER X OR O 
     X
-
-Here, the user entered 'C' instead of X or O and the program asked again. Here, we do
-see an unfortunate inconsistency with the UI. Ideally, the ivalid character message should
-end with a colon and a space like the line before it instead of a new line.
 
 ### PLAYER MOVE
 The Program will then prompt the user to enter the number of the cell the player would like
