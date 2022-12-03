@@ -62,8 +62,8 @@ upon my program. I created an ascii art title that I am still trying to improve 
 drafting new ways to store the positions of the X's and O's. I drafted new ways check the positions 
 of game pieces. I covered my class notebooks with 1's and 0's and X's and O's. I was so obsessed. 
 I came out of this project LOVING assembly language. Without any exaggeration, I think this project 
-might have changed my life and the way I view programming as well as consider a career in embedded
-software/firmware engineering and development.
+might have changed my life and the way I view programming as well as making me consider a career in 
+embedded software/firmware engineering and development.
   
 ## STEPS
   
