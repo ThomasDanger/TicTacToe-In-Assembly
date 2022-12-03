@@ -15,3 +15,5 @@
 
 
 I thought maybe this would show some sort of ability to program in assembly language and, by extension, land me a internship working with embedded systems. Check back for updates.
+
+This is where I developed my iconic love for bit-wise operations and assembly language.
