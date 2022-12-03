@@ -83,8 +83,9 @@ embedded software/firmware engineering and development.
      
 Where the grid containing the numbers represents a table and the numbers
 represent the position of a cell. The data for the player's move will be 
-stored at 2^(Position*2). This game will also prompt the user to choose 
-X's or O's. This is explained in the next step.
+represented by adding 2^(Position*2) to the integer that represents the 
+game board. This game will also prompt the user to choose X's or O's. This 
+is explained in the next step.
   
 ### CHOOSING GAMEPIECE (X'S OR O'S)
 The program will prompt you to enter an X or an O to choose whether you would
