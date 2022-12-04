@@ -191,7 +191,7 @@ By performing the aformentioned operations we see
 ## GOING FORWARD
 Going forward, I would like to minimize the file size as well as try to find more novel ways to
 optimize the CPU's decision-making (finding a faster way to find the nearest open corner, edge,
-etc.) A concrete goal of mine it to get the number of lines not including white space and comments
+etc.) A concrete goal of mine is to get the number of lines not including white space and comments
 down to under 400 lines.
 
 I also plan to recreate this program in x86 and ARM.
