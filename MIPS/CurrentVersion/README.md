@@ -15,7 +15,7 @@
 
 ## Introduction
 
-This program allows you to play tic-tac-toe against a computer. This is my most recent
+This program allows you to play tic-tac-toe against a computer opponent. This is my most recent
 tic-tac-toe in assembly program.
 
 ### BACKGROUND
