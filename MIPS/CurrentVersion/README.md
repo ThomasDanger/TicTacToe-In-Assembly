@@ -13,6 +13,8 @@
        \__________________________________________________________________________//    \___//
                                                                         
 
+## NOTICE: THIS WAS MADE BEFORE I LEARNED ABOUT DATA HAZARDS AND CONTROL HAZARDS! MANY ARE PRESENT IN THIS BUILD!
+
 ## Introduction
 
 This program allows you to play tic-tac-toe against a computer opponent. This is my most recent tic-tac-toe in assembly program.
