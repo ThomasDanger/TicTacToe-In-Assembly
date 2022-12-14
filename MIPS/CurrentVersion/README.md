@@ -13,7 +13,7 @@
        \__________________________________________________________________________//    \___//
                                                                         
 
-## NOTICE: THIS WAS MADE BEFORE I LEARNED ABOUT DATA HAZARDS AND CONTROL HAZARDS! MANY ARE PRESENT IN THIS BUILD!
+## NOTICE: THIS WAS MADE BEFORE I LEARNED ABOUT DATA HAZARDS AND CONTROL HAZARDS! MANY ARE PRESENT IN THIS BUILD! DOES NOT AFFECT FUNCTIONALIITY BUT WILL AFFECT PROGRAM PERFOMANCE
 
 ## Introduction
 
